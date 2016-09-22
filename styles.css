@@ -22,33 +22,26 @@ body{
 .logo{
 	height: 150px;
 	width: 150px;
-	animation-name: logo-animation;
-	animation-duration: 3s;
 	
 }
 
-.logo:hover{
-	animation-iteration-count: infinite;
-	cursor: pointer;
-}
-
-@keyframes logo-animation{
-	0%{ transform: rotate(0deg);}
-	100%{ transform: rotate(360deg);}
-
-}
 
 #header h3{
-	font: normal 20px/55px Grotesk, sans-serif;
-	letter-spacing: 2px;
+	font-style: Helvetica, HelveticaNeue, sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	letter-spacing: 4px;
 	color: #7e7e7e;
 	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 ul li em{
 
 	font-size: 10px;
 	padding: 2px;
+	font-weight: normal;
 }
 
 ul#main-menu{
@@ -65,21 +58,20 @@ ul#main-menu li{
 	line-height: 40px;
 	font-size: 15px;
 	font-weight: 500;	
-	letter-spacing: 1px;
-
-
 }
 
 ul#main-menu li a{
-	font: normal Helvetica, HelveticaNeue, sans-serif;
-	color: #7e7e7e;
+	font-style: Helvetica, HelveticaNeue, sans-serif;
+	font-weight: bold;
+	color: #A9A9A9;
 	text-decoration: none;
-	padding: 20px;
+	padding: 15px;
+	letter-spacing: 2px;
 	
 }
 
 ul#main-menu li a:hover{
-	font-weight: bold;
+	color: #7e7e7e;
 }
 
 ul#main-menu li a:hover > em{
@@ -92,22 +84,22 @@ ul#main-menu li a:hover > em{
 }
 
 #experience:hover ~ #arrow{
-	margin-left: 48%;
+	margin-left: 49%;
 	transition: .5s;
 }
 
 #projects:hover ~ #arrow{
-	margin-left: 69%;
+	margin-left: 70%;
 	transition: .5s;
 }
 
 #contact:hover ~ #arrow{
-	margin-left: 89%;
+	margin-left: 90%;
 	transition: .5s;
 }
 
 #arrow{
-	margin-left: 9%;
+	margin-left: 8%;
 	width: 0; 
   	height: 0; 
   	border-left: 15px solid transparent;
@@ -122,24 +114,43 @@ ul#main-menu li a:hover > em{
 	height: 515px;
 	margin: 0 auto;
 	position: relative;
-	opacity: ;
+}
+
+.bottom-container{
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	width: 90%;	
+	height: auto;
+
+}	
+
+.section-info{
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 100%;	
+	height: auto;
+	
 }
 
 .section-split{
-	margin-top: 50px;
-	width: 80%;	
+	position: relative;
 	height: 20px;
+	margin: 50px 0px 50px 0px;
 	border-top: 6px solid #ededed;
 	border-left: 6px solid #ededed;
 	border-right: 6px solid #ededed;
-}		
+
+}	
 
 .section-middle{
 	position: relative;
 	background-color: #f8f8f8;
-	position: relative;
 	max-width: 200px;
+	height: 40px;
 	margin: 0 auto;
+	margin-top: -30px;
 	text-align: center;
 	border: 6px solid #ededed;
 
@@ -147,12 +158,11 @@ ul#main-menu li a:hover > em{
 .section-split-img{
 	height: 40px;
 	width: 40px;
-	vertical-align: middle; 
+	
 }
 
 .section-split-arrow{
 	margin-left: 49%;
-	margin-top: 6px;
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
@@ -160,21 +170,19 @@ ul#main-menu li a:hover > em{
     border-top: 10px solid #ededed;
 }
 
-.content{
-	width: 90%;
-	margin: 0 auto;
+.info-row{
+	position: relative;
 	display: block;
-	margin-top: 20px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: purple;
 
 }
 .boxes{
-	height: 185px;
-	width: 20%;
-	float: left;
+	position: relative;
+	height: auto;
+	width: 100%;
 	margin: 0 auto;
-	margin-right: 33px;
-	margin-left: -10px;
-	margin-bottom: 30px;
 	text-align: center;
 	font: normal 12px/45px Grotesk, sans-serif;
 	color: #7e7e7e;
@@ -186,11 +194,26 @@ ul#main-menu li a:hover > em{
 	opacity: .5;
 }
 
+.about{
+	background-color: purple;
+}
+
+.education{
+	background-color: yellow;
+}
+
+.experience{
+	background-color: orange;
+}
+
+.projects{
+	background-color: silver;
+}
+
 		
 
 
-
-
+@media 
 
 
 
