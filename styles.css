@@ -162,7 +162,7 @@ ul#main-menu li a:hover > em{
 }
 
 .section-split-arrow{
-	margin-left: 49%;
+	margin-left: calc(50% - 10px);
     width: 0;
     height: 0;
     border-left: 10px solid transparent;
