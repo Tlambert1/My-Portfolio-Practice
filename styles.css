@@ -1,3 +1,6 @@
+/* Styling Mobile Sized device first */
+
+
 body{
 	background: #f8f8f8;
 	width: 100%;
@@ -35,77 +38,6 @@ body{
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-}
-
-ul li em{
-
-	font-size: 10px;
-	padding: 2px;
-	font-weight: normal;
-}
-
-ul#main-menu{
-	width: 80%;
-	height: 40px;
-	border: 6px solid #ededed;
-	margin: 0 auto;
-}
-
-ul#main-menu li{
-	display: inline-block;
-	padding: 0 15px;
-	height: 40px;
-	line-height: 40px;
-	font-size: 15px;
-	font-weight: 500;	
-}
-
-ul#main-menu li a{
-	font-style: Helvetica, HelveticaNeue, sans-serif;
-	font-weight: bold;
-	color: #A9A9A9;
-	text-decoration: none;
-	padding: 15px;
-	letter-spacing: 2px;
-	
-}
-
-ul#main-menu li a:hover{
-	color: #7e7e7e;
-}
-
-ul#main-menu li a:hover > em{
-	font-weight: normal;
-}
-
-#education:hover ~ #arrow{
-	margin-left: 27%;
-	transition: .5s;
-}
-
-#experience:hover ~ #arrow{
-	margin-left: 49%;
-	transition: .5s;
-}
-
-#projects:hover ~ #arrow{
-	margin-left: 70%;
-	transition: .5s;
-}
-
-#contact:hover ~ #arrow{
-	margin-left: 90%;
-	transition: .5s;
-}
-
-#arrow{
-	margin-left: 8%;
-	width: 0; 
-  	height: 0; 
-  	border-left: 15px solid transparent;
-  	border-right: 15px solid transparent;
-  	border-top: 15px solid #ededed;
-  	transition: .5s;
 }
 
 .sliderwrapper img{
@@ -209,5 +141,77 @@ ul#main-menu li a:hover > em{
 }
 
 		
+@media (min-width: 1267px){
+	ul li em{
 
+	font-size: 10px;
+	padding: 2px;
+	font-weight: normal;
+}
+
+ul#main-menu{
+	width: 80%;
+	height: 40px;
+	border: 6px solid #ededed;
+	margin: 0 auto;
+}
+
+ul#main-menu li{
+	display: inline-block;
+	padding: 0 15px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 15px;
+	font-weight: 500;	
+}
+
+ul#main-menu li a{
+	font-style: Helvetica, HelveticaNeue, sans-serif;
+	font-weight: bold;
+	color: #A9A9A9;
+	text-decoration: none;
+	padding: 15px;
+	letter-spacing: 2px;
+	
+}
+
+ul#main-menu li a:hover{
+	color: #7e7e7e;
+}
+
+ul#main-menu li a:hover > em{
+	font-weight: normal;
+}
+
+#education:hover ~ #arrow{
+	margin-left: 27%;
+	transition: .5s;
+}
+
+#experience:hover ~ #arrow{
+	margin-left: 49%;
+	transition: .5s;
+}
+
+#projects:hover ~ #arrow{
+	margin-left: 70%;
+	transition: .5s;
+}
+
+#contact:hover ~ #arrow{
+	margin-left: 90%;
+	transition: .5s;
+}
+
+#arrow{
+	margin-left: 8%;
+	width: 0; 
+  	height: 0; 
+  	border-left: 15px solid transparent;
+  	border-right: 15px solid transparent;
+  	border-top: 15px solid #ededed;
+  	transition: .5s;
+}
+
+}
 
