@@ -15,6 +15,8 @@ body{
 	margin: 0 auto;
 }
 
+/* Start of header id */
+
 #header{
 	text-align: center;
 	padding-top: 20px;
@@ -39,6 +41,72 @@ body{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+#main-menu{
+	/*display: none;*/
+}
+
+#main-menu{
+	list-style: none;
+	width: 90%;
+	height: auto;
+	padding: 0px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#main-menu li{
+	border: 6px solid #ededed;
+	width: 90%;
+	display: inline-block;
+	margin: 10px auto;
+	padding: 5px;
+}
+
+#main-menu li a{
+	font-style: Helvetica, HelveticaNeue, sans-serif;
+	font-weight: bold;
+	color: #A9A9A9;
+	text-decoration: none;
+	letter-spacing: 2px;
+
+}
+
+#main-menu li em{
+	font-size: 10px;
+	padding: 2px;
+	font-weight: normal;
+
+}
+
+#main-menu li a:hover{
+	color: #7e7e7e;
+	cursor: pointer;
+
+}
+
+#main-menu li a:hover > em{
+	font-weight: normal;
+}
+
+#hamburger{
+	width: 20%;
+	display: inline-block;
+	line-height: 0px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#hamburger p{
+	margin-top: -5px;
+
+}
+
+#hamburger:hover{
+	cursor: pointer;
+}
+
+/* end of header id */
 
 .sliderwrapper img{
 	width: 100%;
@@ -120,10 +188,6 @@ body{
 	
 }
 
-.boxes:hover{
-	opacity: .5;
-}
-
 .about{
 	background-color: purple;
 }
@@ -142,76 +206,81 @@ body{
 
 		
 @media (min-width: 1267px){
-	ul li em{
 
-	font-size: 10px;
-	padding: 2px;
-	font-weight: normal;
-}
+	#main-menu li em{
+		font-size: 10px;
+		padding: 2px;
+		font-weight: normal;
+	}
 
-ul#main-menu{
-	width: 80%;
-	height: 40px;
-	border: 6px solid #ededed;
-	margin: 0 auto;
-}
+	#main-menu{
+		display: inline-block;
+		width: 80%;
+		height: 40px;
+		border: 6px solid #ededed;
+		margin: 0 auto;
+	}
 
-ul#main-menu li{
-	display: inline-block;
-	padding: 0 15px;
-	height: 40px;
-	line-height: 40px;
-	font-size: 15px;
-	font-weight: 500;	
-}
+	#hamburger{
+		display: none;
+	}
 
-ul#main-menu li a{
-	font-style: Helvetica, HelveticaNeue, sans-serif;
-	font-weight: bold;
-	color: #A9A9A9;
-	text-decoration: none;
-	padding: 15px;
-	letter-spacing: 2px;
-	
-}
+	#main-menu li{
+		display: inline-block;
+		padding: 0 15px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 15px;
+		font-weight: 500;	
+	}
 
-ul#main-menu li a:hover{
-	color: #7e7e7e;
-}
+	#main-menu li a{
+		font-style: Helvetica, HelveticaNeue, sans-serif;
+		font-weight: bold;
+		color: #A9A9A9;
+		text-decoration: none;
+		padding: 15px;
+		letter-spacing: 2px;
+		
+	}
 
-ul#main-menu li a:hover > em{
-	font-weight: normal;
-}
+	#main-menu li a:hover{
+		color: #7e7e7e;
+	}
 
-#education:hover ~ #arrow{
-	margin-left: 27%;
-	transition: .5s;
-}
+	#main-menu li a:hover > em{
+		font-weight: normal;
+	}
 
-#experience:hover ~ #arrow{
-	margin-left: 49%;
-	transition: .5s;
-}
+	#education:hover ~ #arrow{
+		margin-left: 27%;
+		transition: .5s;
+	}
 
-#projects:hover ~ #arrow{
-	margin-left: 70%;
-	transition: .5s;
-}
+	#experience:hover ~ #arrow{
+		margin-left: 49%;
+		transition: .5s;
+	}
 
-#contact:hover ~ #arrow{
-	margin-left: 90%;
-	transition: .5s;
-}
+	#projects:hover ~ #arrow{
+		margin-left: 70%;
+		transition: .5s;
+	}
 
-#arrow{
-	margin-left: 8%;
-	width: 0; 
-  	height: 0; 
-  	border-left: 15px solid transparent;
-  	border-right: 15px solid transparent;
-  	border-top: 15px solid #ededed;
-  	transition: .5s;
-}
+	#contact:hover ~ #arrow{
+		margin-left: 90%;
+		transition: .5s;
+	}
+
+	#arrow{
+		margin-left: 8%;
+		width: 0; 
+	  	height: 0; 
+	  	border-left: 15px solid transparent;
+	  	border-right: 15px solid transparent;
+	  	border-top: 15px solid #ededed;
+	  	transition: .5s;
+	}
 
 }
 
