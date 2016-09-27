@@ -43,8 +43,12 @@ body{
 	margin-bottom: 20px;
 }
 
-#main-menu{
+.display-none{
 	display: none;
+}
+
+.display-block{
+	display: block;
 }
 
 #main-menu{
