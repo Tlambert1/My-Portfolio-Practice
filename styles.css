@@ -110,10 +110,10 @@ body{
 
 /* end of header id */
 
-#main-slider img{
+.sliderwrapper img{
 	width: 100%;
+	height: auto;
 	display: block;
-	height: 515px;
 	margin: 0 auto;
 	position: relative;
 	-webkit-filter: grayscale(50%);
@@ -208,7 +208,7 @@ body{
 }
 
 		
-@media (min-width: 1267px){
+/*@media (min-width: 1267px){
 
 	#hamburger{
 		display: none;
@@ -229,9 +229,12 @@ body{
 	}
 
 	#main-menu li{
+		border: none;
+		width: auto;
 		display: inline-block;
 		padding: 0 15px;
 		height: 40px;
+		margin: 0 auto;
 		line-height: 40px;
 		font-size: 15px;
 		font-weight: 500;	
@@ -276,5 +279,5 @@ body{
 	  	transition: .5s;
 	}
 
-}
+}*/
 
