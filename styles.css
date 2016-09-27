@@ -27,13 +27,14 @@ body{
 .logo{
 	height: 150px;
 	width: 150px;
+	-webkit-filter: grayscale(50%);
 	
 }
 
 
 #header h3{
 	font-style: Helvetica, HelveticaNeue, sans-serif;
-	font-weight: bold;
+	font-weight: bolder;
 	font-size: 30px;
 	letter-spacing: 4px;
 	color: #7e7e7e;
@@ -43,7 +44,7 @@ body{
 }
 
 #main-menu{
-	/*display: none;*/
+	display: none;
 }
 
 #main-menu{
@@ -106,14 +107,16 @@ body{
 	cursor: pointer;
 }
 
+
 /* end of header id */
 
-.sliderwrapper img{
+#main-slider img{
 	width: 100%;
 	display: block;
 	height: 515px;
 	margin: 0 auto;
 	position: relative;
+	-webkit-filter: grayscale(50%);
 }
 
 .bottom-container{
@@ -207,6 +210,10 @@ body{
 		
 @media (min-width: 1267px){
 
+	#hamburger{
+		display: none;
+	}
+
 	#main-menu li em{
 		font-size: 10px;
 		padding: 2px;
@@ -221,10 +228,6 @@ body{
 		margin: 0 auto;
 	}
 
-	#hamburger{
-		display: none;
-	}
-
 	#main-menu li{
 		display: inline-block;
 		padding: 0 15px;
@@ -234,15 +237,6 @@ body{
 		font-weight: 500;	
 	}
 
-	#main-menu li a{
-		font-style: Helvetica, HelveticaNeue, sans-serif;
-		font-weight: bold;
-		color: #A9A9A9;
-		text-decoration: none;
-		padding: 15px;
-		letter-spacing: 2px;
-		
-	}
 
 	#main-menu li a:hover{
 		color: #7e7e7e;
